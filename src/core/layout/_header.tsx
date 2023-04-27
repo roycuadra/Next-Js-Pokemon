@@ -92,8 +92,8 @@ const useStyles = createStyles((theme) => ({
 
 	linkActive: {
 		'&, &:hover': {
-			backgroundColor: theme.fn.variant({ variant: 'light', color: theme.primaryColor }).background,
-			color: theme.fn.variant({ variant: 'light', color: theme.primaryColor }).color,
+			backgroundColor: theme.fn.variant({ variant: 'dark', color: theme.primaryColor }).background,
+			color: theme.fn.variant({ variant: 'dark', color: theme.primaryColor }).color,
 		},
 	},
 }));
@@ -142,13 +142,10 @@ const AppHeader = ({ links }: IHeader) => {
 
 				<Group spacing={0} className={classes.social} position="right" noWrap>
 
-					<ActionIcon size="lg" variant='transparent' onClick={() => window.open('https://github.com/kyooowe')}>
+					<ActionIcon size="lg" variant='transparent' onClick={() => window.open('https://github.com/roycuadra')}>
 						<BrandGithub size={18} strokeWidth={1.5} color="#ffffff" />
 					</ActionIcon>
 					
-					<ActionIcon size="lg" variant='transparent' onClick={() => window.open('https://www.facebook.com/iAMSyntrax.14/')}>
-						<BrandFacebook size={18} strokeWidth={1.5} color="#ffffff" />
-					</ActionIcon>
 				</Group>
 			</Container>
 		</Header>
