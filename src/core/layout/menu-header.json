@@ -1,0 +1,16 @@
+{
+    "links": [
+      {
+        "link": "/",
+        "label": "Pokemon"
+      },
+      {
+        "link": "/items",
+        "label": "Items"
+      },
+      {
+        "link": "/moves",
+        "label": "Moves"
+      }
+    ]
+  }

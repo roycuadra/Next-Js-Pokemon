@@ -1,0 +1,32 @@
+.mantine-AppShell-body {
+    background-color: #F5F4F3;
+}
+
+.mantine-Header-root {
+    background-color: #228be6 !important;
+}
+
+.mantine-Accordion-content, .mantine-Accordion-itemTitle, .mantine-Accordion-item, .mantine-Accordion-control {
+    background-color: #ffffff;
+    
+}
+
+.mantine-Accordion-control:hover {
+    background-color: #ffffff;
+    
+}
+
+.mantine-Accordion-item:first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.mantine-Accordion-item:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.mantine-Timeline-itemBullet {
+    background-image: url('/poke-bg.jpg');
+    background-size: cover;
+}
