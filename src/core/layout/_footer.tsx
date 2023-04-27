@@ -34,8 +34,6 @@ const AppFooter = () => {
     return (
         <div className={classes.footer}>
             <Container className={classes.inner}>
-                <Skeleton height={40} circle mb="xl" className={classes.logo} />
-                <Group>Created by Kyooowe ♡</Group>
             </Container>
         </div>
     );
