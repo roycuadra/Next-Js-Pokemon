@@ -1,6 +1,6 @@
 //#region Import
 import { useState } from 'react';
-import { createStyles, Header, Group, ActionIcon, Container, Burger, Skeleton, Transition, Paper } from '@mantine/core';
+import { createStyles, Header, Group, ActionIcon, Container, Burger, Transition, Paper } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import { BrandGithub, BrandFacebook } from 'tabler-icons-react';
 import { IHeader } from '../interface/Layout';
@@ -92,8 +92,8 @@ const useStyles = createStyles((theme) => ({
 
 	linkActive: {
 		'&, &:hover': {
-			backgroundColor: theme.fn.variant({ variant: 'dark', color: theme.primaryColor }).background,
-			color: theme.fn.variant({ variant: 'dark', color: theme.primaryColor }).color,
+			backgroundColor: theme.fn.variant({ variant: 'light', color: theme.primaryColor }).background,
+			color: theme.fn.variant({ variant: 'light', color: theme.primaryColor }).color,
 		},
 	},
 }));
@@ -138,13 +138,13 @@ const AppHeader = ({ links }: IHeader) => {
 					)}
 				</Transition>
 
-				<Skeleton height={40} circle mb="xl" className={classes.logo} />
 
 				<Group spacing={0} className={classes.social} position="right" noWrap>
 
 					<ActionIcon size="lg" variant='transparent' onClick={() => window.open('https://github.com/roycuadra')}>
 						<BrandGithub size={18} strokeWidth={1.5} color="#ffffff" />
 					</ActionIcon>
+				
 					
 				</Group>
 			</Container>
