@@ -208,43 +208,9 @@ const Page: NextPageWithLayout = () => {
 				/>
 			</Flex>
 
-			<Paper shadow="sm" radius="lg" p="lg" mt={15} withBorder>
-				<Text><b>Keyboard Shortcuts</b><span className={classes.paperSpan}> (under experimentation)</span></Text>
-				<Grid columns={12} mt={15}>
-					<Grid.Col xs={6} sm={6} md={6} lg={6}>
-						<Center>
-							<Flex
-								mih={50}
-								gap="md"
-								justify="flex-start"
-								align="flex-start"
-								direction="row"
-								wrap="wrap"
-							>
-								<Kbd>←</Kbd>
-								<Text>=</Text>
-								<Text>Prev Page</Text>
-							</Flex>
-						</Center>
-					</Grid.Col>
-					<Grid.Col xs={6} sm={6} md={6} lg={6}>
-						<Center>
-							<Flex
-								mih={50}
-								gap="md"
-								justify="flex-start"
-								align="flex-start"
-								direction="row"
-								wrap="wrap"
-							>
-								<Kbd>→</Kbd>
-								<Text>=</Text>
-								<Text>Next Page</Text>
-							</Flex>
-						</Center>
-					</Grid.Col>
-				</Grid>
-			</Paper>
+			
+					
+			
 
 			<Grid columns={12} mt={15}>
 				{
